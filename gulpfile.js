@@ -94,7 +94,7 @@ function watchFiles() {
 
 }
 
-gulp.task(cssStyle);
+gulp.task('css', cssStyle);
 gulp.task('default', gulp.parallel(sync, watchFiles))
 gulp.task(sync);
 
